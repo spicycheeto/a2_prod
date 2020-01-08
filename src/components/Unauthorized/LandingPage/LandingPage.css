@@ -1,0 +1,112 @@
+
+
+p {
+  font-size: 100%;
+}
+
+#titleParagraph {
+  font-size: 50px;
+}
+
+
+.landingRoutesColumn {
+
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.landingRoutesRow {
+
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
+}
+
+
+.landingPageButton {
+
+  border-style: solid;
+  border-color: #ff637e;
+  background-color: #3b66e7;
+  border-width: thick;
+  font-family: Special Elite, cursive;
+  font-size: 50px;
+  height: 150px;
+  width: 350px;
+  color: white;
+  cursor: pointer;
+}
+
+landingPageButton:hover {
+  border-style: solid;
+  border-color: #3bdb4c;
+  background-color: #b5ecbd;
+  border-width: thick;
+  font-family: Special Elite, cursive;
+  font-size: 50px;
+  height: 150px;
+  width: 350px;
+  color: white;
+  cursor: pointer;
+
+}
+
+
+.landingColumn1{
+  display: flex;
+  margin-top: 50px;
+  width: 450px;
+  font-size: 25px;
+  font-family: "Special Elite, cursive";
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.landingColumn2{
+  display: flex;
+  margin-top: 50px;
+  width: 450px;
+  font-size: 25px;
+  font-family: "Special Elite, cursive";
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.landingColumnsContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 25px;
+  font-family: "Special Elite, cursive";
+
+
+}
+
+.footerRow {
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  font-family: "Special Elite, cursive";
+  justify-content: center;
+  align-items: center;
+  border-top: solid;
+  border-color: "#ff637e";
+}

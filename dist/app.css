@@ -1,0 +1,987 @@
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+/*background-color:#5a555b;*/
+tr:hover {
+
+  cursor: pointer;
+}
+
+h1 {
+  color: black;
+}
+
+
+
+/*******reactapp core***********/
+
+
+.messageRow {
+  display: flex;
+  direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  opacity: .5;
+  background-color: #9ad3a7;
+}
+
+.messageRow:hover {
+  cursor: pointer;
+
+}
+
+
+.plusSign {
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  align-items:center;
+  height: 50px;
+  width: 50px;
+  box-shadow: 2px 3px 4px rgba(6, 0, 5, 0.5);
+  margin: 30px;
+  font-size: 40px;
+  border-radius: 15px;
+  background: white;
+  color: grey;
+}
+
+
+.plusSign:hover{
+  background: grey;
+  color: white;
+  cursor: pointer;
+}
+
+.imgThumbNail {
+
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+
+}
+.cardThumb:hover {
+
+ background-color: grey;
+ cursor: pointer;
+
+}
+
+
+.clickable:hover {
+
+ background-color: grey;
+ cursor: pointer;
+
+}
+
+.cardThumbEdit{
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  margin:5px;
+  padding:5px;
+
+}
+
+.cardThumbEdit:hover{
+  border-color: black;
+  border-style:solid;
+  background: grey;
+  cursor: pointer;
+}
+
+
+.editTabButton{
+
+  background-color: #3b66e7;
+  font-family: "Special Elite, cursive";
+  color: white;
+  cursor: "pointer";
+}
+
+.editTabButton:hover{
+  color: grey;
+  background-color: #6c9bb7;
+  cursor: pointer;
+  border: solid;
+  border-color: black;
+}
+
+
+
+
+
+/*************/
+.frontButton{
+border-style: "solid";
+border-color: "#ff637e";
+background-color: "#3b66e7";
+border-width: "thick";
+font-family: "Special Elite, cursive";
+font-size: "50px";
+height": "150px";
+width: "350px";
+color: white;
+cursor: "pointer";
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+
+input{
+  display: inline;
+  }
+
+body{
+  border-top: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+#app{
+  overflow: auto;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background: #ffffff;
+}
+
+.navbar {
+    /*overflow: hidden;
+
+    position: fixed; Set the navbar to fixed position */
+     /* Position the navbar at the top of the page */
+    position: fixed;
+    top: 0;
+    width: 100%; /* Full width */
+    background-color: white;
+
+    z-index: 1;
+
+}
+
+.headerFlexbox {
+  display: flex;
+  direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  font-size: 20px;
+  border-bottom: black;
+}
+
+.headerLogoImg {
+  margin-left: 130px;
+}
+
+.headerLinks {
+  display: flex;
+  direction: row;
+  margin-left: 260px;
+  width: 100%;
+  justify-content: space-around;
+  color: black;
+}
+
+.primaryContainer {
+
+  position: relative;
+  height: 100%;
+  margin-top: 300px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+.landingPageSearchBar{
+  position: absolute;
+  color: white;
+}
+
+.searchBarFlexBox{
+  display: flex;
+  direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+
+}
+/*
+.pageRow {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  -webkit-overflow-scrolling: touch;
+}*/
+
+.pageColumn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+
+
+.columnCenter {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.columnStart {
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+
+}
+
+.distinationPageCard {
+
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  flex: 0 0 auto;
+  margin: 80px 0 0 10%;
+
+}
+
+.distinationPageCard:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  cursor: context-menu;
+}
+
+
+
+.distinationPageCardContainer {
+  padding: 2px 16px;
+}
+
+.distinationPageTourContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+
+}
+
+
+
+.tourPageContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+
+  font-size-adjust: auto;
+  font-size:30px;
+  flex: 0 0 auto;
+  padding-top: 100px;
+}
+
+
+.tourPagePhotoRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+
+.tourPagePhotoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 1200px;
+  max-width: 100%;
+  max-height: 100%;
+  border-style: solid;
+  border-color: black;
+}
+
+.tourPagePhotoContainer img {
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
+
+.tourPageDescriptionRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+  justify-content: flex-start;
+  padding-bottom: 100px;
+  padding-top: 100px;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+
+.tourPageDescriptionCard {
+  margin: 0px 0 20% 20%;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  width: 800px;
+}
+
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  font-size-adjust: auto;
+  font-size:30px;
+  flex: 0 0 auto;
+  padding-top: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.pageRow {
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.rowCentered {
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+
+
+.pageRow#topProfileRow {
+  padding: 40px;
+  overflow-y: hidden;
+}
+
+.profileCard {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  flex: 0 0 auto;
+  margin: 2%;
+  height: 500px;
+  width: 500px;
+  max-width: 100%;
+  max-height: 100%;
+  border-style: solid;
+  border-color: black;
+}
+
+.profileCard img {
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
+
+.profileDescription {
+  display: flex;
+  margin: 0 0 0 auto;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  width: 800px;
+  align-items: center;
+}
+
+.profileStatisticsBox {
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  width: 100%
+}
+
+.profileRecommendationBox {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  margin: 2%;
+  justify-content: flex-start;
+  width: 600px;
+  background-color: #e7e7e7;
+  border-radius: 3%;
+}
+
+.profileRecommendationRow{
+  display: flex;
+  flex-direction: row;
+  flex: 0 0 auto;
+  height: 150px;
+  border-style: solid;
+  border-color: orange;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: orange;
+  border-radius: 25px;
+  width: 80%;
+  margin: 1%;
+}
+
+
+.profileRecommendationImage{
+  height:130px;
+  width:150px;
+  margin: 1% 1% 1% 1%;
+  border-style: solid;
+
+}
+.profileRecommendationImage img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.profileRecommendationDescription{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin: 0 0 0 2%;
+ }
+
+
+.profileHistoryBox {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  margin: 0 200px 0 200px;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  background-color: #e7e7e7;
+  border-radius: 40px;
+  overflow-y: hidden;
+}
+
+.pageRow#bottomProfileRow {
+  justify-content: center;
+  align-items: center;
+}
+
+.pageRow#profileTourButtons{
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.pageRow#profileTourButtons: hover{
+  background-color: grey;
+}
+
+.pageRow#profileTourTitle{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pageRow#guideSignupBottomRow {
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow-x: hidden;
+}
+
+.pageRow#guideSignupTopRow {
+  justify-content: space-around;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.pageRow#guideSignupTopRow i{
+  font-size: 100px;
+}
+
+.pageRow#guideSignupTopRow i:hover{
+  cursor: pointer;
+  border-radius: 25px;
+  background: #bbb;
+  @include transition(all 0.3s);
+}
+
+.pageRow#guideSignupBottomRow  label {
+  cursor: pointer;
+   border-radius: 5px;
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   margin: 0 0 0 3%;
+   background: #bbb;
+
+   @include transition(all 0.3s);
+}
+
+.profileButton {
+
+  width: 100px;
+  margin: 10px;
+  border-radius: 25px;
+  font-size: small;
+}
+
+.profileButton:hover{
+  cursor: pointer;
+  background-color: grey;
+}
+
+.profileButton#blueButton{
+
+  background-color: #0080ff;
+  font-size: large;
+}
+
+.profileButton#greenButton{
+  margin: 0 0 0 2%;
+  background-color: #00cc00;
+  font-size: large;
+
+}
+
+.profileButton#blueButton:hover{
+  cursor: pointer;
+  background-color: darkorange;
+}
+
+.profileButton#greenButton:hover{
+  cursor: pointer;
+  background-color: darkorange;
+}
+
+.guideSignupGraphic {
+  flex: 0 0 auto;
+  height: 500px;
+  width: 500px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.guideSignupGraphic img {
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
+
+.pageContainer#guideSignup {
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  flex-wrap: nowrap;
+  padding: 0;
+}
+
+.pageContainer#guideSignup textarea{
+overflow: hidden;
+width: 100%;
+height: 100%;
+}
+.pageRow#guideSignup{
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+
+
+/**/
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+}
+
+.dropdown:hover {
+  cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    text-align: center;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /*padding: 12px 16px;*/
+    z-index: 2;
+}
+
+.dropdown:hover .dropdown-content {
+
+    display: block;
+    z-index: 2;
+}
+
+.dropDownItem {
+  margin: 3px;
+  width:100%
+
+}
+.dropDownItem a{
+
+    text-decoration: none;
+  }
+
+.dropDownItem:hover {
+  cursor: pointer;
+  color: orange;
+  background-color: grey;
+
+}
+
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 80px
+    height: 80px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+
+
+
+}
+
+/**************************************************/
+/***** The switch button *****/
+/**************************************************/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/******************End of Rounded slider switch**************/
+/**************************************************/
+/*********************************************/
+
+
+
+
+/**************************************************/
+/***** tooltip - tooltip displayed underneath element *****/
+/**************************************************/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+/******************End of tooltip**************/
+/**************************************************/
+/*********************************************/
+
+
+
+
+/************* slide nav bar ***************/
+
+/*"position": "fixed", "bottom": "0", "left": "50px", "right": "50px", "backgroundColor": "white"*/
+/* The side navigation menu */
+.txHistoryNavBar {
+  /*  height: 100%;  100% Full-height */
+  /*  width: 0;  0 width - change this with JavaScript */
+   /*  display: flex; Stay in place */
+  /*  z-index: 1;  Stay on top */
+    /*top: 50px;  Stay at the top */
+    /*left: 50px;
+    background-color: white; /* Black*/
+  /*  overflow-x: visible;  Disable horizontal scroll */
+  /*  padding-top: 60px;  Place content 60px from the top */
+    transition: .5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#sidebarMain {
+    transition: margin-left 1s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+
+
+/************ End slide nav bar ************/
+
+.mainbox {
+  background: brown;
+  font-size: 10px;
+  color: orange;
+}
+
+
+.restaurantProfileCards {
+ height: 100px;
+ box-shadow:  5px 10px #888888;
+ text-align: center;
+ margin: 50px;
+}
+
+.restaurantProfileCards:hover{
+  background-color: grey;
+}
+
+
+.MenuItems:hover{
+  background-color: grey;
+}
+
+.flexContainerRow {
+  display: flex;
+  direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+  position:fixed;
+  background: white;
+  width: 80%;
+  height: auto;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+
+.landingPageModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  opacity: .8;
+}
+
+.landingPageModalMain {
+  position:fixed;
+  width: 40%;
+  height: 40%;
+  height: auto;
+  top:50%;
+  left:50%;
+  margin-top: 50px;
+  background-color: #fdffff;
+
+  border-radius: 25px;
+  transform: translate(-50%,-50%);
+  padding: 20px;
+}
+
+.landingPageModalInputContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+
+}
+
+.landingPageInput{
+
+  background-color: grey;
+  border-color: black;
+  border: none;
+  border-left: solid;
+  border-width: thin;
+  border-color: grey;
+  font-size: large;
+  color: black;
+  text-align: center;
+  border-radius: 25px;
+
+
+
+}

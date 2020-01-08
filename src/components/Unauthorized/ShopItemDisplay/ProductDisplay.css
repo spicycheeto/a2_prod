@@ -1,0 +1,204 @@
+.shopItemDisplayContainer {
+  display: flex;
+  flex-direction: column;
+  font-size-adjust: auto;
+  font-size:30px;
+  flex: 0 0 auto;
+  padding-top: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  height: 100%;
+  width: 100%;
+  margin-top: 200px;
+}
+
+.shopItemDisplayPrimaryRow {
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
+
+}
+
+.detailedDescription{
+  text-align: center;
+  padding: 100px;
+}
+
+.includedList{
+  text-align: left;
+}
+
+.productOptionsRow {
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.optionsCenteredColumn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+
+.addItemCenteredDiv {
+  display: flex;
+
+  margin-bottom: 10%;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.addItemButton{
+  background-color: #3b66e7;
+  color: white;
+  cursor: "pointer";
+}
+
+
+.detailsColumn {
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.dropDownSelection{
+
+  margin: 10px;
+  padding: 10px;
+  height: 75px;
+  width: 300px;
+
+}
+.dropDownSelectionError{
+  margin: 10px;
+  padding: 10px;
+  height: 75px;
+  width: 300px;
+  border-color: red;
+}
+
+.dropDownSelectionError:hover{
+  cursor:pointer;
+}
+
+.dropDownSelection:hover{
+  cursor:pointer;
+}
+
+
+.checkBoxDiv{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: #e0e0e0;
+  width: 500px;
+  border-radius: 2%;
+  margin: 2%;
+}
+
+
+.checkBox{
+  margin: 10px;
+  padding: 5px;
+}
+
+.checkBoxTitle{
+  margin: 10px;
+  padding: 1%;
+}
+
+
+.mainDiv{
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+}
+
+.bottomRow{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+}
+
+
+.topRow{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+}
+
+.imgScroll{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.imgScroll:hover{
+  cursor: pointer;
+  background: #e8e9ea;
+}
+
+
+
+.primaryImage{
+  height: 500px;
+  width: 700px;
+
+}
+
+.secondaryImage:hover{
+  cursor: pointer;
+  border-color: grey;
+}
+
+
+.secondaryImage{
+  height: 100px;
+  width: 100px;
+  border: solid;
+  border-style: small;
+  margin: 10px;
+
+}
+
+.secondaryImageHighlight{
+  height: 100px;
+  width: 100px;
+  border: solid;
+  border-style: small;
+  margin: 10px;
+  border-color: blue;
+}

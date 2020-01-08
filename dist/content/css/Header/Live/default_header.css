@@ -1,0 +1,27 @@
+
+.socialMediaImage{
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+}
+
+#companyName {
+  border-bottom: solid;
+  border-color: #ff637e;
+}
+
+.shoppingCartImage {
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  direction: column;
+  flex-wrap: wrap;
+}
+
+
+.shoppingCart{
+  height:50px;
+  width:50px;
+  padding:5px;
+}

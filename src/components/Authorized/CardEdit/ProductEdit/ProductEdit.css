@@ -1,0 +1,73 @@
+.centerItems{
+  justify-content: center;
+  align-content: center;
+  overflow-y: hidden;
+}
+
+.primaryImgThumbNail{
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+  border-color: blue;
+}
+
+.imgThumbNail{
+  height: 200px;
+  width: 200px;
+  border: none;
+}
+
+
+
+.editProductButton{
+  box-shadow: 2px 3px 4px rgba(6, 0, 5, 0.5);
+  border-radius: 15px;
+  margin: 5px;
+  background-color: black;
+  color: white;
+  font-family: "Special Elite, cursive";
+
+}
+
+.editProductButton:hover{
+  color: white;
+  background-color: grey;
+  border: solid;
+  border-color: orange;
+
+}
+
+.detailsBox{
+
+}
+
+.editSizeButton {
+  height: 50px;
+  width: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
+
+}
+
+.editSizeButtonPushed {
+  height: 50px;
+  width: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
+  background: black;
+}
+
+
+.colorButton{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+.colorButtonPushed{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  border-width: thick;
+  border-color: black;
+}
