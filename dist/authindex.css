@@ -1,0 +1,184 @@
+
+.box{
+  box-shadow: 2px 3px 4px rgba(6, 0, 5, 0.5);
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.pageRow#categoryRow{
+  justify-content: center;
+  align-content: center;
+  border-bottom: solid;
+}
+
+.subCategoryButton{
+  box-shadow: 2px 3px 4px rgba(6, 0, 5, 0.5);
+  border-radius: 15px;
+  margin: 5px;
+  background-color: black;
+  color: white;
+  font-family: "Special Elite, cursive";
+
+}
+
+.subCategoryButton:hover{
+  color: white;
+  background-color: grey;
+  border: solid;
+  border-color: orange;
+
+}
+
+
+
+
+
+
+
+.removeCategoryButton{
+  font-size: 15px;
+  text-align: center;
+}
+
+
+
+.xample{
+animation-name: show;
+animation-duration: .5s;
+animation-fill-mode: forwards;
+}
+
+@keyframes show {
+from { height: 0px; width: 0px;}
+to {height: 100%; width: 100%;}
+}
+
+
+.colorButton#red {
+  height: 25px;
+  width: 25px;
+  border-radius: 12.5px;
+  margin: 5px;
+  background: red;
+}
+
+.colorButton#blue {
+  height: 25px;
+  width: 25px;
+  border-radius: 12.5px;
+  margin: 5px;
+  background: blue;
+}
+
+.colorButton#black {
+  height: 25px;
+  width: 25px;
+  border-radius: 12.5px;
+  margin: 5px;
+  background: black;
+}
+
+.colorButtonPushed#red {
+  height: 25px;
+  width: 25px;
+  border-radius: 12.5px;
+  background: red;
+  border-style: solid;
+  margin: 5px;
+  border-color: grey;
+}
+
+.colorButtonPushed#blue {
+  height: 25px;
+  width: 25px;
+  border-radius: 12.5px;
+  background: blue;
+  border-style: solid;
+  margin: 5px;
+  border-color: grey;
+}
+
+.colorButtonPushed#black {
+  height: 25px;
+  width: 25px;
+  border-radius: 12.5px;
+  background: black;
+  border-style: solid;
+  margin: 5px;
+  border-color: grey;
+}
+
+.centerItems{
+  justify-content: center;
+  align-content: center;
+  overflow-y: hidden;
+}
+
+.primaryImgThumbNail{
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+  border-color: blue;
+}
+
+.imgThumbNail{
+  height: 200px;
+  width: 200px;
+  border: none;
+}
+
+
+
+.editProductButton{
+  box-shadow: 2px 3px 4px rgba(6, 0, 5, 0.5);
+  border-radius: 15px;
+  margin: 5px;
+  background-color: black;
+  color: white;
+  font-family: "Special Elite, cursive";
+
+}
+
+.editProductButton:hover{
+  color: white;
+  background-color: grey;
+  border: solid;
+  border-color: orange;
+
+}
+
+.detailsBox{
+
+}
+
+.editSizeButton {
+  height: 50px;
+  width: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
+
+}
+
+.editSizeButtonPushed {
+  height: 50px;
+  width: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
+  background: black;
+}
+
+
+.colorButton{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+.colorButtonPushed{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  border-width: thick;
+  border-color: black;
+}
+

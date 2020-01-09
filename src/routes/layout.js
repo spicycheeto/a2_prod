@@ -116,6 +116,8 @@ function unauthorizedHtmlTemplate(reactDom,reduxState,helmetData) {
         ​ <link rel="stylesheet" type="text/css" href="app.css">
         ​ <link rel="stylesheet" type="text/css" href=${dynamicHeader} >
          <link rel="stylesheet" type="text/css" href="w3.css">
+         <link rel="stylesheet" type="text/css" href="authIndex.css">
+         <link rel="stylesheet" type="text/css" href="index.css">
 
             <meta charset="utf-8">
               ${ helmetData.title.toString( ) }

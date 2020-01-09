@@ -1,5 +1,6 @@
 const webpack = require('webpack');
 const path = require( "path" );
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   context: path.join( __dirname, "./src" ),
@@ -21,7 +22,14 @@ module.exports = {
       {
         test: /\.(css|scss)$/,
         use: [
-          "style-loader", // creates style nodes from JS strings
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              hmr: true,
+              publicPath: '/dist/min-css/'
+            },
+          },
+          // "style-loader", // creates style nodes from JS strings
           "css-loader", // translates CSS into CommonJS
           //"sass-loader"//  compiles Sass to CSS, using Node Sass by default
         ]
@@ -45,7 +53,11 @@ module.exports = {
  }
 },
  plugins: [
-    new webpack.HotModuleReplacementPlugin()
+    new webpack.HotModuleReplacementPlugin(),
+    new MiniCssExtractPlugin({
+      filename:'[name].css',
+      chunkFilename: '[id].css',
+    }),
   ],
   devServer: {
     contentBase: './dist',
